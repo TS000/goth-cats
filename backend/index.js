@@ -39,6 +39,10 @@ const gifs = [
   {
     title: "Book Cat",
     link: "https://i.giphy.com/media/LmgHHxtKgDsYrVsEOw/giphy.gif"
+  },
+  {
+    title: "Long Cat",
+    link: https://media.giphy.com/media/tCXYuJLb554sw/giphy.gif
   }
 ];
 
