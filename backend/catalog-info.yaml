@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: goth-cats
+  annotations:
+    github.com/project-slug: TS000/goth-cats
+spec:
+  type: other
+  lifecycle: unknown
+  owner: TS000
