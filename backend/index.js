@@ -32,6 +32,10 @@ const gifs = [
     title: "Judgy Cat",
     link: "https://i.giphy.com/media/PGGsOfnjKBHvW/giphy.gif",
   },
+  {
+    title: "Shadow Cat",
+    link: "https://i.giphy.com/media/tCXYuJLb554sw/giphy.gif"
+  }
 ];
 
 const resolvers = {
