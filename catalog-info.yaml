@@ -5,6 +5,6 @@ metadata:
   annotations:
     github.com/project-slug: TS000/goth-cats
 spec:
-  type: graphq
+  type: graphql
   lifecycle: ninelives
   owner: Wallaby-TS000
