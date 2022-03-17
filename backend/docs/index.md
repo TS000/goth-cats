@@ -20,11 +20,11 @@ query ExampleQuery {
   "data": {
     "gifs": [
       {
-        "title": cat1,
+        "title": "cat1",
         "link": "https://url-to-kitty.com"
       },
       {
-        "title": "Dark Cat",
+        "title": "cat2",
         "link": "https://url-to-kitty.com"
       }
     ]
