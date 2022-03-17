@@ -4,6 +4,8 @@ metadata:
   name: goth-cats
   annotations:
     github.com/project-slug: TS000/goth-cats
+annotations:
+    backstage.io/techdocs-ref: url:https://github.com/TS000/goth-cats/blob/main/backend/docs/index.md
 spec:
   type: graphql
   lifecycle: ninelives
