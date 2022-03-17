@@ -8,3 +8,5 @@ spec:
   type: nextjs
   lifecycle: ninelives
   owner: Wallaby-TS000
+annotations:
+    backstage.io/techdocs-ref: url:https://github.com/TS000/goth-cats/blob/main/frontend/docs/index.md
