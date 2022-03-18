@@ -1,0 +1,17 @@
+name: Launch the Docs
+on:
+  push:
+    branches: [main]
+    paths: ['docs/*']
+jobs:
+  create-techdocs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Techdocs webhook
+        uses: department-of-veterans-affairs/lighthouse-github-actions/.github/actions/techdocs-webhook@main
+        with:
+          repository: ${{ github.repository }}
+          descriptor-file: 'catalog-info.yaml'
+          namespace: 'Goth-Cats-Application'
+          token: ${{ secrets.WEBHOOK_PAT }}

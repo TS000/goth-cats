@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: App
 metadata:
-  name: goth-cats
+  name: goth-cats-application
   annotations:
     github.com/project-slug: TS000/goth-cats
 spec:
