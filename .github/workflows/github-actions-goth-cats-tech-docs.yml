@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [ main ]
-    paths: [ '/backend/docs/*' ]
+    paths: '/backend/docs/*'
 jobs:
   create-techdocs:
     runs-on: ubuntu-latest
