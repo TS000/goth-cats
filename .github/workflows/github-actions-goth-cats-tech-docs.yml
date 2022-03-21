@@ -2,13 +2,9 @@ name: Launch the Docs
 on:
   workflow_dispatch:
   push:
-    branches:  
-      - main
-      paths: [ /backend/docs/* ]
-  pull_request:
-    branches:
-      - main
-      paths: [ /backend/docs/* ]
+    branches: 
+      - master
+    paths: [ '/backend/docs/*'' ]
 jobs:
   create-techdocs:
     runs-on: ubuntu-latest
