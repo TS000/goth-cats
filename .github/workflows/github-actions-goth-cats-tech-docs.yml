@@ -15,5 +15,5 @@ jobs:
           repo: ${{ github.repository }}
           repository: 'TS000/goth-cats'
           descriptor-file: 'catalog-info.yaml'
-          namespace: 'Goth-Cats-API'
+          namespace: 'goth-cats-API'
           token: ${{ secrets.WEBHOOK_PAT }}
