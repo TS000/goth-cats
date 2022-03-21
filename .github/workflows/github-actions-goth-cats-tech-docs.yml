@@ -1,8 +1,11 @@
 name: Launch the Docs
 on:
   push:
-    branches: [main]
-    paths: ['/backend/docs/*']
+    branches: [ main ]
+    paths: [ /backend/docs/* ]
+  pull_request:
+    branches: [ main ]
+     paths: [ /backend/docs/* ]
 jobs:
   create-techdocs:
     runs-on: ubuntu-latest
@@ -12,6 +15,6 @@ jobs:
         uses: department-of-veterans-affairs/lighthouse-github-actions/.github/actions/techdocs-webhook@main
         with:
           repository: ${{ github.repository }}
-          descriptor-file: 'backend/catalog-info.yaml'
+          descriptor-file: [ backend/catalog-info.yaml ]
           namespace: 'Goth-Cats-API'
           token: ${{ secrets.WEBHOOK_PAT }}
