@@ -13,6 +13,7 @@ jobs:
         uses: department-of-veterans-affairs/lighthouse-github-actions/.github/actions/techdocs-webhook@main
         with:
           repo: ${{ github.repository }}
+          repository: 'TS000/goth-cats'
           descriptor-file: 'catalog-info.yaml'
           namespace: 'Goth-Cats-API'
           token: ${{ secrets.WEBHOOK_PAT }}
