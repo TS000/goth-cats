@@ -2,10 +2,10 @@ name: Launch the Docs
 on:
   push:
     branches: [ main ]
-    paths: [ /backend/docs/* ]
+      paths: [ /backend/docs/* ]
   pull_request:
     branches: [ main ]
-     paths: [ /backend/docs/* ]
+      paths: [ /backend/docs/* ]
 jobs:
   create-techdocs:
     runs-on: ubuntu-latest
