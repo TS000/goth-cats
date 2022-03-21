@@ -1,8 +1,10 @@
 name: Launch the Docs
 on:
   push:
-    branches: [main]
-    paths: ['/backend/docs/*']
+    branches: 
+      - main
+    paths: 
+      - 'backend/docs/index.md'
 jobs:
   create-techdocs:
     runs-on: ubuntu-latest
