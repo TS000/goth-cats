@@ -1,8 +1,4 @@
+site_name: backend
+
 nav:
-  - Home: index.md
-
-plugins:
-  - techdocs-core
-
-repo_url: 'https://github.com/TS000/goth-cats'
-site_name: 'Goth Cats API'
+  - Reference: "index.md"
