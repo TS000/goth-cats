@@ -8,3 +8,4 @@ nav:
 
 plugins:
   - monorepo
+  - techdocs-core
