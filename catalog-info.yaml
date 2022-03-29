@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
   name: goth-cats-api
-  description: Dark Feline Gifs
+  description: Dark Feline Gifs API
   annotations:
     backstage.io/techdocs-ref: url:https://github.com/TS000/goth-cats/blob/main/backend/docs/index.md
     github.com/project-slug: TS000/goth-cats
