@@ -11,4 +11,4 @@ spec:
   domain: lighthouse
   lifecycle: ninelives
   owner: wallaby
-  type: website
+  type: component
