@@ -13,3 +13,4 @@ spec:
   lifecycle: ninelives
   owner: lighthouse-wallaby
   type: website
+  definition: cats
