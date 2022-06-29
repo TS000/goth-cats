@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: goth-cats
+  name: goth-cats-mono-repo
   title: Combined Monorepo for Felines of the Night
   description: A combined monorepo
   annotations:
