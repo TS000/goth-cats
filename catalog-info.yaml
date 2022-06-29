@@ -6,11 +6,18 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: url:https://github.com/TS000/goth-cats/main/backend
     github.com/project-slug: TS000/goth-cats
+  namespace: lighthouse-wallaby
+  description: cats
   tags:
     - monorepo
+  annotations:
+    backstage.io/techdocs-ref: url:https://github.com/TS000/goth-cats/
 spec:
   domain: lighthouse
+  system: voids-with-tails
   lifecycle: ninelives
   owner: lighthouse-wallaby
   type: website
-  definition: cats
+  definition: graphql
+links:
+  icon: black-cat-icon.png
