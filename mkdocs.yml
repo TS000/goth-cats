@@ -1,10 +1,9 @@
 site_name: 'Goth Cats App and API Documentation'
-plugins:
-  - techdocs-core
-  - monorepo
-
 nav:
-  - Intro: 'index.md'
-  - Components: '!include ./frontend/mkdocs.yml'
-  - API:
-    - v0: '!include ./backend/mkdocs.yml'
+  - Home: index.md
+  - Subdirectory docs:
+    - API: '!include ./backend/mkdocs.yml'
+    - Frontend: '!include ./frontend/mkdocs.yml'
+plugins:
+  - monorepo
+  - techdocs-core

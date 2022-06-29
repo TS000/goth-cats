@@ -1,8 +1,7 @@
 site_name: 'Goth Cats API Documentation'
-repo_url: 'https://github.com/TS000/goth-cats'
-plugins:
-  - techdocs-core
-  - monorepo
 
 nav:
   - Home: index.md
+
+plugins:
+  - techdocs-core
