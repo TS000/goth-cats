@@ -1,3 +1,4 @@
 # Welcome to the Goth Cats API Docs
 
-- Markdown source: `goth-cats/docs/index.md`
+- [Backend Starter](backend-guide.md)
+- [Frontend Starter](frontend-guide.md`)
