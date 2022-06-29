@@ -4,14 +4,12 @@ metadata:
   name: goth-cats-api
   description: Dark Feline Gifs API
   annotations:
-    backstage.io/techdocs-ref: url:https://github.com/TS000/goth-cats/main/backend
+    backstage.io/techdocs-ref: url:https://github.com/TS000/goth-cats/main/docs/backend-guide.md
     github.com/project-slug: TS000/goth-cats
   namespace: lighthouse-wallaby
   description: cats
   tags:
     - monorepo
-  annotations:
-    backstage.io/techdocs-ref: url:https://github.com/TS000/goth-cats/
 spec:
   domain: lighthouse
   system: voids-with-tails
